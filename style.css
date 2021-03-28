@@ -29,7 +29,7 @@ body {
   text-align: center;
   height: 50px;
   width: 160px;
-  padding: 10px;
+  padding: 12px;
 }
 .meme:hover {
   color: black;
@@ -50,7 +50,7 @@ body {
   padding: 10px;
   height: 60px;
   width: 150px;
-  box-shadow: 3px 3px 4px black;
+  box-shadow: 3px 3px 4px rgb(141, 141, 141);
   transition: all 0.5s;
   cursor: pointer;
   margin-right: 25px;
