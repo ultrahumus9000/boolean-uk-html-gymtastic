@@ -1,7 +1,12 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: sans-serif;
   margin: 0px;
+  padding: 0px;
 }
+
 .first {
   background-color: cornflowerblue;
   padding-left: 10px;
@@ -15,16 +20,6 @@ body {
   padding: 10px;
 }
 
-.second,
-.third {
-  padding-top: 7px;
-  padding-left: 20px;
-  padding-bottom: 25px;
-}
-.third {
-  background-color: cornflowerblue;
-  color: whitesmoke;
-}
 .second h1 {
   color: cornflowerblue;
 }
@@ -32,9 +27,9 @@ body {
   border: 3px goldenrod solid;
   border-radius: 10px;
   text-align: center;
-  height: 40px;
+  height: 50px;
   width: 160px;
-  line-height: 40px;
+  padding: 10px;
 }
 .meme:hover {
   color: black;
@@ -45,42 +40,98 @@ body {
   color: goldenrod;
   cursor: pointer;
 }
-
-button {
+.button-1,
+.button-2,
+.button-3 {
   display: inline-block;
   color: whitesmoke;
-  border: 4px solid navajowhite;
   border-radius: 10px;
-  font-size: 20px;
-  padding: 15px 20px;
+  font-size: 28px;
+  padding: 10px;
   height: 60px;
   width: 150px;
-  box-shadow: 1px 1px 2px black;
+  box-shadow: 3px 3px 4px black;
   transition: all 0.5s;
   cursor: pointer;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 .button-1 {
   background-color: #aa00ff;
+  border: 2px solid #500177b6;
 }
 .button-2 {
   background-color: #00b0ff;
+  border: 2px solid #010b0f44;
 }
 .button-3 {
   background-color: #e65100;
+  border: 2px solid #1d120c3d;
 }
 button:hover {
-  color: black;
+  color: rgb(6, 136, 97);
   background-color: pink;
+}
+button h2:hover {
+  color: rgb(6, 136, 97);
+}
+.testmo {
+  background-color: lightblue;
+  color: rgb(95, 94, 94);
+  padding: 20px;
+}
+.head,
+.sub {
+  margin: 0px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.sub {
+  font-size: 16px;
+}
+.contain {
+  text-align: center;
+}
+.container-1,
+.container-2,
+.container-3 {
+  display: inline-block;
+  width: 200px;
+  height: 400px;
+  text-align: center;
+  margin: 25px;
+  font-size: 16px;
+  border: none;
+  color: #4c4d4e;
+  background-color: rgb(196, 194, 194);
+  padding-bottom: 0px;
+  vertical-align: middle;
+}
+.pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid blueviolet;
+}
+.container-1 h2,
+.container-2 h2,
+.container-3 h2 {
+  padding-bottom: 10px;
+  border-bottom: 3px solid blueviolet;
+  color: rgb(73, 6, 64);
+}
+
+.third {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  margin-top: 0px;
 }
 .third li {
   list-style-type: none;
 }
-img {
-  border-radius: 20px;
-  margin: 20px;
-  display: block;
-  margin-left: 300px;
-  margin-top: -200px;
-  width: 400px;
+.second,
+.third {
+  padding-top: 7px;
+  padding-left: 20px;
+  padding-bottom: 25px;
 }
